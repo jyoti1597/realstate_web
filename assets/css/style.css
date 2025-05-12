@@ -257,3 +257,41 @@ a.brandLogo::after {
 .locationList li div {
     width: 90%;
 }
+.distance {
+    width: 100%;
+    height: 1px;
+    background: #cfa85f;
+}
+
+.distance ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+ul.distance li {
+    padding-top: 70px;
+    font-weight: 600;
+    line-height: 25px;
+    font-size: 12px;
+    width: 160px;
+}
+.circle {
+    width: 20px;
+    height: 20px;
+    border: 1px solid #cfa85f;
+    border-radius: 50%;
+    position: relative;
+    padding: 0;
+    background: #fff;
+    top: -13px;
+}
+.circle::after {
+    content: "";
+    background: #cfa85f;
+    position: absolute;
+    width: 1px;
+    height: 34px;
+    top: 19px;
+    left: 8px;
+}
